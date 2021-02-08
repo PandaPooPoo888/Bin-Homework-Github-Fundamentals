@@ -38,13 +38,14 @@ _TO DO: Load balancing ensures that the application will be highly available and
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name       | Function               | IP Address  | Operating System | Notes     |
-|------------|----------------------|---------  ----|------------------|-----------|
-| jump-box | Gateway               | 10.0.0.1      | Linux            |           |
-| web-1      | Protected VM       | 10.0.0.5      | Linux            |           |
-| web-2      | Protected VM       | 10 .0.0.6     | Linux            |           |
-| web-3      | Protected VM       | 10.0.0.7      | Linux            |           |
-| ELK-Server | Protected VM    | 10.1.0.4      | Linux            |           |
+| Name       | Function      | IP Address | Operating System | Notes             |
+|------------|---------------|------------|------------------|-------------------|
+| jump-box   | Gateway       | 10.0.0.4   | Linux            | a nice VM gateway |
+| web-1      | Protected VM  | 10.0.0.5   | Linux            |                   |
+| web-2      | Protected VM  | 10.0.0.6   | Linus            |                   |
+| web-3      | Protected VM  | 10.0.0.7   | Linux            |                   |
+| ELK-Server | Protected VM  | 10.1.0.4   | Linux            |                   |
+
 
 ### Access Policies
 
